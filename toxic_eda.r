@@ -6,6 +6,7 @@ library(venn)
 
 train_data <- read_csv("train.csv")
 head(train_data)
+nrow(train_data)
 
 counts <- c(normal=nrow(train_data), (map_int(train_data[3:8], sum)))
 barplot(counts)
