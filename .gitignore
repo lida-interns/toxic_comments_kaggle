@@ -1,7 +1,14 @@
+# R files
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+
+# Data files
 test.csv
 train.csv
 sample_submission.csv
+
+# Model
+*.d2v
+
